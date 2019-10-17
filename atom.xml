@@ -1,45 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>颙若斋</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2019-10-16T21:57:32.028Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="https://guoyongruo.github.io/"/>
+  <updated>2019-10-17T05:09:29.102Z</updated>
+  <id>https://guoyongruo.github.io/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>骑猪的老爸</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2019/10/16/hello-world/"/>
-    <id>http://yoursite.com/2019/10/16/hello-world/</id>
-    <published>2019-10-16T06:24:09.612Z</published>
-    <updated>2019-10-16T21:57:32.028Z</updated>
+    <title>友链</title>
+    <link href="https://guoyongruo.github.io/post/link.html"/>
+    <id>https://guoyongruo.github.io/post/link.html</id>
+    <published>2019-10-17T05:08:36.000Z</published>
+    <updated>2019-10-17T05:09:29.102Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><a href="https://github.com/geektutu/hexo-theme-geektutu" target="_blank" rel="noopener">博客修改参考指南</a></li></ol>]]></content>
     
     <summary type="html">
     
       
       
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
+        &lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/geektutu/hexo-theme-geektutu&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;博客修改参考指南&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
       
     
     </summary>
     
+      <category term="建站准备" scheme="https://guoyongruo.github.io/categories/%E5%BB%BA%E7%AB%99%E5%87%86%E5%A4%87/"/>
     
-      <category term="建站指南" scheme="http://yoursite.com/categories/%E5%BB%BA%E7%AB%99%E6%8C%87%E5%8D%97/"/>
+    
+      <category term="友链" scheme="https://guoyongruo.github.io/tags/%E5%8F%8B%E9%93%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客何来？</title>
+    <link href="https://guoyongruo.github.io/post/about.html"/>
+    <id>https://guoyongruo.github.io/post/about.html</id>
+    <published>2019-10-17T05:06:40.000Z</published>
+    <updated>2019-10-17T05:08:04.355Z</updated>
+    
+    <content type="html"><![CDATA[<p>2019年10月6日下午三点，一个女人从厕所跑到兴高采烈地跑到我面前说：“你要当爸爸啦！” 我一把从女人手上拿过大卫的早早孕试纸，上面显示两条杠！是的，那个女人是我老婆。而那一刻你存在的迹象显示在那一张早早孕试纸上！是的！我孩子，你要来到这世界上了！名字早已取好——颙若！</p><p>人的一生很长也很短！很长是因为有些人可以活到100岁，见证一个世纪的变化；很短是因为很多人在行将就木的时候，却什么也没有留在这世间！回忆模糊不清，青春无痕，那是多么的悲哀！</p><p>这个博客既记录我的青春，又在你不能记录生活的时候为你留下生活的点滴！专题项目，我想按照按着你成长的阶段分别记录！</p><p>希望你此刻在母亲的子宫里顺利发育，用力成长，期待明年6月与你相见，我的颙若！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;2019年10月6日下午三点，一个女人从厕所跑到兴高采烈地跑到我面前说：“你要当爸爸啦！” 我一把从女人手上拿过大卫的早早孕试纸，上面显示两条杠！是的，那个女人是我老婆。而那一刻你存在的迹象显示在那一张早早孕试纸上！是的！我孩子，你要来到这世界上了！名字早已取好——颙若！&lt;
+      
+    
+    </summary>
+    
+      <category term="建站准备" scheme="https://guoyongruo.github.io/categories/%E5%BB%BA%E7%AB%99%E5%87%86%E5%A4%87/"/>
     
     
-      <category term="指导" scheme="http://yoursite.com/tags/%E6%8C%87%E5%AF%BC/"/>
+      <category term="意义" scheme="https://guoyongruo.github.io/tags/%E6%84%8F%E4%B9%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://guoyongruo.github.io/post/hello-world.html"/>
+    <id>https://guoyongruo.github.io/post/hello-world.html</id>
+    <published>2019-10-16T22:36:11.182Z</published>
+    <updated>2019-10-16T22:36:11.182Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
     
   </entry>
   

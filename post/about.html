@@ -14,17 +14,17 @@
   <!-- if page has tags, then add tags to keyword -->
   
   
-  <meta name="keywords" content="记录,成长,,">
+  <meta name="keywords" content="记录,成长,意义,">
   <!-- page.description has higher priority -->
   <meta name="description" content="关于成长的故事">
   <link rel="shortcut icon" href="/img/icon.png">
   <title>
     
-    颙若斋
+    博客何来？ | 颙若斋
     
   </title>
 
-  <link rel="canonical" href="/">
+  <link rel="canonical" href="/post/about.html">
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/layout.css">
   <link rel="stylesheet" href="/css/markdown.css">
@@ -84,7 +84,7 @@
             <ul>
                 
                 
-                <li class="gkt-cate-name float-left ">
+                <li class="gkt-cate-name float-left active">
                     <a class="float-left" href="/post/about.html">建站准备</a>
                     
                 </li>
@@ -121,36 +121,235 @@
 <main class="col-xs-12 padding-0 markdown-it">
     <!-- Post Container -->
     
-    <style>
-        @media (min-width: 1200px) {
-            .main-container {
-                width: 1000px !important;
-            }
+    <!-- Post Content -->
+<div class="float-left post-container box-shadow">
+    <div class="u-arrow-wrapper hidden-xs">
+        
+        <a class="float-left" href="/post/hello-world.html"><i class="u-arrow-left"></i></a>
+        
+        
+        <a class="float-right" href="/post/link.html"><i class="u-arrow-right"></i></a>
+        
+    </div>
+    <article class="col-xs-12">
+        <h1> 博客何来？ </h1>
+
+        
+
+        
+        <div class="hidden-lg hidden-md series_links">
+            <p> <strong> 建站准备系列文章链接：</strong></p>
+            <ul>
+                
+                <li>
+                    <a href="/post/about.html">博客何来？</a>
+                    <span class="post-item-date">(Oct 17, 2019)</span>
+                </li>
+                
+                <li>
+                    <a href="/post/link.html">友链</a>
+                    <span class="post-item-date">(Oct 17, 2019)</span>
+                </li>
+                
+            </ul>
+        </div>
+        
+        
+        
+        <p>2019年10月6日下午三点，一个女人从厕所跑到兴高采烈地跑到我面前说：“你要当爸爸啦！” 我一把从女人手上拿过大卫的早早孕试纸，上面显示两条杠！是的，那个女人是我老婆。而那一刻你存在的迹象显示在那一张早早孕试纸上！是的！我孩子，你要来到这世界上了！名字早已取好——颙若！</p>
+<p>人的一生很长也很短！很长是因为有些人可以活到100岁，见证一个世纪的变化；很短是因为很多人在行将就木的时候，却什么也没有留在这世间！回忆模糊不清，青春无痕，那是多么的悲哀！</p>
+<p>这个博客既记录我的青春，又在你不能记录生活的时候为你留下生活的点滴！专题项目，我想按照按着你成长的阶段分别记录！</p>
+<p>希望你此刻在母亲的子宫里顺利发育，用力成长，期待明年6月与你相见，我的颙若！</p>
+
+        <div class="hidden-xs col-xs-12 text-center">
+    <canvas id="geektutu-post-qr"></canvas>
+    <p style="margin-top: -10px;"><small>微信扫一扫，阅读/分享</small></p>
+</div>
+<script src="/js/qrious.min.js"></script>
+<script>
+    (function () {
+        new QRious({
+            element: document.getElementById('geektutu-post-qr'),
+            value: window.location.href,
+            size: 120
+        });
+    })();
+</script>
+        <hr>
+        <div>
+            
+            <p>
+                <span>专题: </span>
+                
+                <a href="/series/#建站准备">
+                    <code key="建站准备" class="post-label">建站准备</code>
+                </a>
+                
+            </p>
+            
+            <p>
+                <span>发表于2019-10-17 13:06:40，最后修改于2019-10-17 13:08:04。</span>
+            </p>
+            <!-- 文章末尾的提示 start -->
+            
+            <p>
+                本站永久域名<strong>「 <a
+                        href="/post/about.html">guoyongruo.github.io</a>
+                    」</strong>，也可搜索<strong>「 颙若斋 」</strong>找到我。
+            </p>
+            
+            
+            <!-- 文章末尾的提示 end -->
+        </div>
+        <hr />
+        <p name="pagination" style="font-size: 1.2em">
+    
+    <a class="float-left" href="/post/hello-world.html">上一篇 « Hello World</a>
+    
+    
+    <a class="float-right" href="/post/link.html">下一篇 » 友链</a>
+    
+</p>
+    </article>
+    <!-- 赞赏 -->
+    <!--打赏-->
+
+<style>
+    #reward .reward-btn-wrapper {
+        width: 100px;
+        padding-top: 25px;
+        cursor: pointer;
+        margin: 0 auto;
+    }
+
+    #reward .reward-btn {
+        padding: 2px 15px;
+        color: #fff;
+        background-color: #ea6f5a;
+        border-radius: 20px;
+    }
+
+    #reward .reward-code {
+        position: absolute;
+        top: -230px;
+        left: 50%;
+        display: none;
+        width: 360px;
+        height: 240px;
+        margin-left: -180px;
+        padding: 15px 20px;
+        border: 1px solid #e6e6e6;
+        background: #fff;
+        box-shadow: 0 1px 1px 1px #efefef;
+    }
+
+    #reward .reward-code:after,
+    #reward .reward-code:before {
+        position: absolute;
+        content: '';
+        border: 10px solid transparent
+    }
+
+    #reward .reward-code:after {
+        bottom: -19px;
+        left: 50%;
+        margin-left: -10px;
+        border-top-color: #fff
+    }
+
+    #reward .reward-code:before {
+        bottom: -20px;
+        left: 50%;
+        margin-left: -10px;
+        border-top-color: #e6e6e6
+    }
+
+    #reward .qr-code {
+        width: 50%;
+        float: left;
+        padding: 5px;
+    }
+
+    #reward .qr-code p {
+        margin-top: -6px;
+    }
+
+    #reward img[alt='i'] {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        margin: 0 auto;
+        z-index: 2;
+        margin-left: 75px;
+        margin-top: 65px;
+    }
+
+    #reward img[alt="ali"] {
+        width: 100%;
+        box-sizing: border-box;
+        border: 5px solid #0f9be0;
+    }
+
+    #reward img[alt="wechat"] {
+        width: 100%;
+        box-sizing: border-box;
+        border: 5px solid #3db034;
+    }
+
+    #reward .reward-tip {
+        font-size: 1.2em;
+        margin-bottom: 0;
+        color: #ea6f5a;
+    }
+</style>
+<div id="reward" class="col-xs-12">
+    <div class="reward-btn-wrapper">
+        <div class="reward-btn text-center">赞赏支持</div>
+    </div>
+    <div class="reward-code text-center">
+        <p class="text-center reward-tip"><strong>请我吃胡萝卜 =^_^= </strong></p>
+        <div class="qr-code">
+            <img src="/img/icon.png" alt="i">
+            <img id="reward-ali" src="" alt="ali">
+            <p><small>支付宝</small></p>
+        </div>
+        <div class="qr-code">
+            <img src="/img/icon.png" alt="i">
+            <img id="reward-wechat" src="" alt="wechat">
+            <p><small>微信</small></p>
+        </div>
+    </div>
+</div>
+<script>
+    (function (window, document) {
+        var aliQr = new QRious({ value: 'null' });
+        var wechatQr = new QRious({ value: 'null' });
+        document.querySelector('#reward-ali').src = aliQr.toDataURL();
+        document.querySelector('#reward-wechat').src = wechatQr.toDataURL();
+
+        var rewardBtn = document.querySelector('#reward .reward-btn-wrapper');
+        var qrCode = document.querySelector('#reward .reward-code')
+        var activeFunc = function (e) {
+            qrCode.style.display = 'block';
+        }
+        var hideFunc = function (e) {
+            qrCode.style.display = 'none';
         }
 
-        #gkt-index-sidebar {
-            border-left: 1px solid #eaecef;
-        }
+        rewardBtn.addEventListener('mouseenter', activeFunc, false)
+        rewardBtn.addEventListener('mouseover', activeFunc, false)
+        rewardBtn.addEventListener('mouseleave', hideFunc, false)
+        qrCode.addEventListener('mouseenter', activeFunc, false)
+        qrCode.addEventListener('mouseover', activeFunc, false)
+        qrCode.addEventListener('mouseleave', hideFunc, false)
+    })(window, document);
+</script>
 
-        #gkt-index-sidebar section {
-            margin-bottom: 8px;
-            padding: 10px;
-        }
-
-        .index-container {
-            padding: 20px;
-        }
-    </style>
-    <div class="col-xs-12 padding-0">
-        <div class="col-xs-12 col-md-8 bg-white index-container box-shadow">
-            <!-- Main Content -->
-<!-- css page.ejs -->
-<!-- 置顶文章 -->
-
-
-<!-- 普通文章 -->
-
-<div class="post-preview">
+    <!-- 推荐阅读三篇文章 -->
+    <div class="col-xs-12">
+        <h3>推荐阅读</h3>
+        
+        <div class="post-preview">
     <div class="post-img" style="background-image: url('/undefined')"></div>
     <div class="post-info">
         <div class="post-info-center">
@@ -178,8 +377,8 @@
         </div>
     </div>
 </div>
-
-<div class="post-preview">
+        
+        <div class="post-preview">
     <div class="post-img" style="background-image: url('/undefined')"></div>
     <div class="post-info">
         <div class="post-info-center">
@@ -207,8 +406,8 @@
         </div>
     </div>
 </div>
-
-<div class="post-preview">
+        
+        <div class="post-preview">
     <div class="post-img" style="background-image: url('/undefined')"></div>
     <div class="post-info">
         <div class="post-info-center">
@@ -229,19 +428,108 @@
         </div>
     </div>
 </div>
+        
+    </div>
+    <div class="col-xs-12">
+        <!-- 标签列表 -->
+        <!-- Featured Tags -->
+<style>
+    #featured-tag .post-tag-item {
+        font-size: 12px;
+        line-height: 30px;
+        display: inline-block;
+        height: 30px;
+        margin: 5px 0px;
+        padding: 0 7px;
+        color: #333;
+        border-radius: 15px;
+        background: #f6f6f6;
+    }
 
-<div style="margin: 15px 0">
-    <div class="text-center">
-    <p>
-        
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        
-    </p>
+    #featured-tag .post-tag-item:hover {
+        color: #337ab7;
+    }
+</style>
+<div id="featured-tag">
+    
+    <a class="post-tag-item" href="/tags/#意义" title="意义"
+        rel="1">#意义 (1) </a>
+    
+    <a class="post-tag-item" href="/tags/#友链" title="友链"
+        rel="1">#友链 (1) </a>
+    
 </div>
+    </div>
+    <!-- 评论 -->
+    <div class="col-xs-12">
+        
+<div id="gitalk-container"></div>
+<div id="gitalk-related"></div>
+<link rel="stylesheet" href="/css/gitalk.css">
+<script src="/js/gitalk.min.js"></script>
+<script>
+    window.addEventListener('load', function () {
+        const gitalk = new Gitalk({
+            clientID: '',
+            clientSecret: '',
+            repo: '',
+            owner: '',
+            admin: [''],
+            id: window.location.pathname,
+            distractionFreeMode: false
+        });
+        gitalk.render('gitalk-container');
+        document.querySelector('#gitalk-container').addEventListener('click', function (e) {
+            e && e.stopPropagation && e.stopPropagation();
+        });
+    })
+</script>
+<script>
+    window.addEventListener('load', function () {
+        function render(comments) {
+            var template = '<a href="${comment.url}?utm_source=gitalk" class="dis-item-url"><h3 class="dis-item-title">${comment.title}</h3>' +
+                '<p class="dis-item-des">${comment.count} 评论 ● ${comment.date}</p>' +
+                '<div class="dis-item-content"><img class="dis-item-img" src="${comment.icon}" alt="icon"><p><b><span class="dis-item-user">${comment.user}</span></b>&nbsp;——&nbsp;${comment.body}</p></div>' +
+                '</a>'
+
+            var wrapper = get('#gitalk-related');
+            comments = shuffle(comments);
+            comments.slice(0, 4).forEach(function (c) {
+                var div = document.createElement('div');
+                div.classList.add('dis-item');
+                div.innerHTML = template.replace("${comment.url}", c.url)
+                    .replace("${comment.title}", c.title)
+                    .replace("${comment.count}", c.count)
+                    .replace("${comment.date}", c.date)
+                    .replace("${comment.icon}", c.icon)
+                    .replace("${comment.user}", c.user)
+                    .replace("${comment.body}", c.body)
+                wrapper.appendChild(div)
+            })
+            var p = document.createElement('p')
+            p.innerHTML = '<a href="https://geektutu.com/post/blog-experience-7.html">Gitalk Plus</a>';
+            p.classList.add('dis-divide');
+            wrapper.appendChild(p);
+            wrapper.classList.add('dis-wrapper')
+        }
+        function shuffle(a) {
+            for (var i = a.length - 1; i > 0; i--) {
+                var j = Math.floor(Math.random() * (i + 1));
+                [a[i], a[j]] = [a[j], a[i]];
+            }
+            return a;
+        }
+        function get(str) { return document.querySelector(str) }
+        fetch('/tool/comments.json').then(function (r) { return r.json() }).then(render).catch(function (e) { })
+    })
+</script>
+
+    </div>
 </div>
-        </div>
-        <div id="gkt-index-sidebar" class="hidden-xs hidden-sm col-md-4">
-            <section class="bg-white box-shadow"><style>
+<aside class="float-left gkt-sidebar hidden-xs hidden-sm">
+    <div style="clear: both"></div>
+    <div class="gkt-sidebar-wrapper">
+        <section class="box-shadow"><style>
     .gkt-summary {
         border: 1px solid #DDDDDD;
         border-radius: 3px;
@@ -317,70 +605,125 @@
     </div>
     
 </div></section>
-            <section class="bg-white box-shadow"><!-- Featured Tags -->
-<style>
-    #featured-tag .post-tag-item {
-        font-size: 12px;
-        line-height: 30px;
-        display: inline-block;
-        height: 30px;
-        margin: 5px 0px;
-        padding: 0 7px;
-        color: #333;
-        border-radius: 15px;
-        background: #f6f6f6;
+        
+        
+        <section class="gkt-sidebar-content box-shadow">
+            <strong>建站准备</strong>
+            <ul>
+                
+                <li>
+                    <a href="/post/about.html"
+                        class="gkt-sidebar-active">博客何来？</a>
+                    
+                    <!-- Table of Contents -->
+<div id="sidebar-toc">
+  <!-- TOC  -->
+  
+</div>
+
+<script>
+  (function () {
+    var h2 = document.querySelectorAll('article h2');
+    var h3 = document.querySelectorAll('article h3');
+    var linkList = document.querySelectorAll('#sidebar-toc a');
+
+    function findLinkElement(name) {
+      for (var i = 0; i < linkList.length; i++) {
+        var items = linkList[i].href.split('#');
+        if (items && items[items.length - 1] === encodeURIComponent(name)) {
+          return i;
+        }
+      }
+      return -1;
     }
 
-    #featured-tag .post-tag-item:hover {
-        color: #337ab7;
+    function activeLink(titleList) {
+      var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+      for (var i = titleList.length - 1; i >= 0; i--) {
+        if (scrollTop - titleList[i].offsetTop > 0) {
+          var index = findLinkElement(titleList[i].id);
+          index != -1 && linkList[index].classList.add('gkt-sidebar-active');
+          break;
+        }
+      }
     }
-</style>
-<div id="featured-tag">
-    
-    <a class="post-tag-item" href="/tags/#意义" title="意义"
-        rel="1">#意义 (1) </a>
-    
-    <a class="post-tag-item" href="/tags/#友链" title="友链"
-        rel="1">#友链 (1) </a>
-    
-</div></section>
-            <section class="bg-white box-shadow text-center">
-                
 
+    window.addEventListener("scroll", function (e) {
+      [].slice.call(linkList).forEach(function (link) {
+        link.classList.remove('gkt-sidebar-active');
+      })
+      activeLink(h2);
+    })
+  })();
+</script>
+                    
+                </li>
                 
+                <li>
+                    <a href="/post/link.html"
+                        class="">友链</a>
+                    
+                </li>
                 
+            </ul>
+        </section>
+        
+        
+        <section class="box-shadow">
+            <strong>最近的文章</strong>
+            <ul>
+                
+                <li>
+                    <a href="/post/link.html">友链</a>
+                </li>
+                
+                <li>
+                    <a href="/post/about.html">博客何来？</a>
+                </li>
+                
+                <li>
+                    <a href="/post/hello-world.html">Hello World</a>
+                </li>
+                
+            </ul>
+        </section>
+        <section class="box-shadow text-center">
+            
 
-                
-                
+            
 
-                
-                
-
-                
-                
-
-                
-                
-
-                
-                
-
-                
-                
-
-                
-                
-
-                
-                
-
-                
-                
-
-                
-            </section>
-        </div>
+        </section>
     </div>
+</aside>
+
+<script>
+    (function () {
+        var ele = getDom('.gkt-sidebar-content')
+        var wrapper = getDom('.gkt-sidebar-wrapper')
+        var last = 0
+        window.addEventListener("scroll", function (e) {
+            var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+            var isDown = scrollTop > last;
+            var pos = getPosition(ele).y - scrollTop;
+            var downLimit = 50;
+            var upLimit = -100;
+            // uarrow.style.marginTop = scrollTop + 'px';
+            isDown && pos <= downLimit && wrapper.classList.add("gkt-sidebar-fixed");
+            !isDown && pos > upLimit && wrapper.classList.remove("gkt-sidebar-fixed");
+            last = scrollTop
+        })
+    })();
+    (function () {
+        function resizeUArrow() {
+            var s = getDom('.u-arrow-wrapper').style
+            var pc = getDom('.post-container')
+            s.left = getPosition(pc).x + 'px';
+            s.width = pc.clientWidth + 'px';
+        }
+        resizeUArrow()
+        window.addEventListener('resize', resizeUArrow);
+    })();
+</script>
     
 </main>
     </div>
